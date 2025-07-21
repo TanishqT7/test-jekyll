@@ -1,0 +1,21 @@
+- name: "Tanishq"
+  age: 23
+  hobbies:
+    - coding
+    - reading
+    - gaming
+  location: "India"
+
+- name: "Alice"
+  age: 30
+  hobbies:
+    - painting
+    - hiking
+  location: "USA"
+
+- name: "Bob"
+  age: 28
+  hobbies:
+    - photography
+    - traveling
+  location: "Canada"
