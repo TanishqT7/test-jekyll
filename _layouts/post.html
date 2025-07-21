@@ -3,8 +3,12 @@ layout: wrapper
 author: Tanishq
 ---
 
-<h1>{{ page.title }}</h1>
-<h3> {{ layout.author }} </h3>
-<hr>
+{% if page.title == "New" %}
+    This is a new post (if statement).
+{% elsif page.title == "Welcome to Jekyll!" %}
+    This is the welcome post (elseif statement).
+{% else %}
+    This is a regular post.
+{% endif %}
 
 {{ content }}
